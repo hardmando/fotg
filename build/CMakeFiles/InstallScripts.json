@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/misa/fotg/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
