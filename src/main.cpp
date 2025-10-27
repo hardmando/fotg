@@ -22,6 +22,7 @@ int main(int argc, char* argv[]) {
 		
 		SDL_Rect rect = { 350, 250, 100, 100 };
     	SDL_RenderClear(w.renderer);
+		SDL_RenderCopy(w.renderer, texture, NULL, &rect);
     	SDL_RenderPresent(w.renderer); 
 
 		SDL_Delay(16);
