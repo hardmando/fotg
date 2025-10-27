@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/misa/fotg/src/init.cpp" "CMakeFiles/fotg.dir/src/init.cpp.o" "gcc" "CMakeFiles/fotg.dir/src/init.cpp.o.d"
-  "/home/misa/fotg/src/main.cpp" "CMakeFiles/fotg.dir/src/main.cpp.o" "gcc" "CMakeFiles/fotg.dir/src/main.cpp.o.d"
-  "" "fotg" "gcc" "CMakeFiles/fotg.dir/link.d"
+  "/Users/user/Projects/fotg/src/TextureLoader.cpp" "CMakeFiles/fotg.dir/src/TextureLoader.cpp.o" "gcc" "CMakeFiles/fotg.dir/src/TextureLoader.cpp.o.d"
+  "/Users/user/Projects/fotg/src/Window.cpp" "CMakeFiles/fotg.dir/src/Window.cpp.o" "gcc" "CMakeFiles/fotg.dir/src/Window.cpp.o.d"
+  "/Users/user/Projects/fotg/src/main.cpp" "CMakeFiles/fotg.dir/src/main.cpp.o" "gcc" "CMakeFiles/fotg.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

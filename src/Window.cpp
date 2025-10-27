@@ -1,14 +1,15 @@
-#include "init.h"
-#include <iostream>
-#include <SDL2/SDL.h>
-#include <SDL2_image/SDL_image.h>
+#include "Window.h"
 
-SDL_Window* initWindow() {
+Window::Window() {
+	Window::initWindow();
+	Window::initRenderer(Window::window);
+}
+void Window::initWindow() {
 	if (SDL_Init(SDL_INIT_VIDEO) < 0) {
 		std::cout << "SDL could not initialize! SDL Error: " << SDL_GetError() << std::endl;
 	}
 
-	SDL_Window* window = SDL_CreateWindow(
+	Window::window = SDL_CreateWindow(
 		"SDL Window",
 		SDL_WINDOWPOS_CENTERED,
 		SDL_WINDOWPOS_CENTERED,
@@ -19,15 +20,12 @@ SDL_Window* initWindow() {
 		std::cout << "Window could not be created! SDL Error: " << SDL_GetError() << std::endl;
 		SDL_Quit();
 	}
-	return window;
 }
 
-SDL_Renderer* initRenderer(SDL_Window* window) {
-	SDL_Renderer* renderer = SDL_CreateRenderer(
+void Window::initRenderer(SDL_Window* window) {
+	Window::renderer = SDL_CreateRenderer(
 		window,
 		-1,
 		SDL_RENDERER_ACCELERATED
 	);
-
-	return renderer;
 }

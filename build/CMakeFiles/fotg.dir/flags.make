@@ -4,7 +4,9 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/misa/fotg/include -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp
+CXX_INCLUDES = -I/Users/user/Projects/fotg/include -I/Library/Frameworks/SDL2_image.framework/Headers -iframework /Library/Frameworks -isystem /Library/Frameworks/SDL2.framework/Headers
 
-CXX_FLAGS = -std=gnu++23
+CXX_FLAGSarm64 = -std=gnu++2b -arch arm64
+
+CXX_FLAGS = -std=gnu++2b -arch arm64
 

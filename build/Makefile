@@ -48,19 +48,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /opt/homebrew/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /opt/homebrew/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/misa/fotg
+CMAKE_SOURCE_DIR = /Users/user/Projects/fotg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/misa/fotg/build
+CMAKE_BINARY_DIR = /Users/user/Projects/fotg/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/misa/fotg/build
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
-	/usr/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/homebrew/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/opt/homebrew/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/misa/fotg/build/CMakeFiles /home/misa/fotg/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/user/Projects/fotg/build/CMakeFiles /Users/user/Projects/fotg/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/misa/fotg/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/user/Projects/fotg/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,29 +129,53 @@ fotg/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fotg.dir/build.make CMakeFiles/fotg.dir/build
 .PHONY : fotg/fast
 
-src/init.o: src/init.cpp.o
-.PHONY : src/init.o
+src/TextureLoader.o: src/TextureLoader.cpp.o
+.PHONY : src/TextureLoader.o
 
 # target to build an object file
-src/init.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fotg.dir/build.make CMakeFiles/fotg.dir/src/init.cpp.o
-.PHONY : src/init.cpp.o
+src/TextureLoader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fotg.dir/build.make CMakeFiles/fotg.dir/src/TextureLoader.cpp.o
+.PHONY : src/TextureLoader.cpp.o
 
-src/init.i: src/init.cpp.i
-.PHONY : src/init.i
+src/TextureLoader.i: src/TextureLoader.cpp.i
+.PHONY : src/TextureLoader.i
 
 # target to preprocess a source file
-src/init.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fotg.dir/build.make CMakeFiles/fotg.dir/src/init.cpp.i
-.PHONY : src/init.cpp.i
+src/TextureLoader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fotg.dir/build.make CMakeFiles/fotg.dir/src/TextureLoader.cpp.i
+.PHONY : src/TextureLoader.cpp.i
 
-src/init.s: src/init.cpp.s
-.PHONY : src/init.s
+src/TextureLoader.s: src/TextureLoader.cpp.s
+.PHONY : src/TextureLoader.s
 
 # target to generate assembly for a file
-src/init.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fotg.dir/build.make CMakeFiles/fotg.dir/src/init.cpp.s
-.PHONY : src/init.cpp.s
+src/TextureLoader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fotg.dir/build.make CMakeFiles/fotg.dir/src/TextureLoader.cpp.s
+.PHONY : src/TextureLoader.cpp.s
+
+src/Window.o: src/Window.cpp.o
+.PHONY : src/Window.o
+
+# target to build an object file
+src/Window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fotg.dir/build.make CMakeFiles/fotg.dir/src/Window.cpp.o
+.PHONY : src/Window.cpp.o
+
+src/Window.i: src/Window.cpp.i
+.PHONY : src/Window.i
+
+# target to preprocess a source file
+src/Window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fotg.dir/build.make CMakeFiles/fotg.dir/src/Window.cpp.i
+.PHONY : src/Window.cpp.i
+
+src/Window.s: src/Window.cpp.s
+.PHONY : src/Window.s
+
+# target to generate assembly for a file
+src/Window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fotg.dir/build.make CMakeFiles/fotg.dir/src/Window.cpp.s
+.PHONY : src/Window.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -186,9 +210,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... fotg"
-	@echo "... src/init.o"
-	@echo "... src/init.i"
-	@echo "... src/init.s"
+	@echo "... src/TextureLoader.o"
+	@echo "... src/TextureLoader.i"
+	@echo "... src/TextureLoader.s"
+	@echo "... src/Window.o"
+	@echo "... src/Window.i"
+	@echo "... src/Window.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

@@ -1,5 +1,5 @@
-CMakeFiles/fotg.dir/src/main.cpp.o: \
-  /Users/user/Projects/fotg/src/main.cpp \
+CMakeFiles/fotg.dir/src/Window.cpp.o: \
+  /Users/user/Projects/fotg/src/Window.cpp \
   /Users/user/Projects/fotg/include/Window.h \
   /Library/Frameworks/SDL2.framework/Headers/SDL.h \
   /Library/Frameworks/SDL2.framework/Headers/SDL_main.h \
@@ -727,6 +727,4 @@ CMakeFiles/fotg.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_tuple.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
-  /Users/user/Projects/fotg/include/TextureLoader.h \
-  /Library/Frameworks/SDL2_image.framework/Headers/SDL_image.h
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h
