@@ -48,19 +48,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/homebrew/bin/cmake
+CMAKE_COMMAND = /usr/bin/cmake
 
 # The command to remove a file.
-RM = /opt/homebrew/bin/cmake -E rm -f
+RM = /usr/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/user/Projects/fotg
+CMAKE_SOURCE_DIR = /home/misa/fotg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/user/Projects/fotg/build
+CMAKE_BINARY_DIR = /home/misa/fotg/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /Users/user/Projects/fotg/build
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
-	/opt/homebrew/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	/opt/homebrew/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/user/Projects/fotg/build/CMakeFiles /Users/user/Projects/fotg/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/misa/fotg/build/CMakeFiles /home/misa/fotg/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/user/Projects/fotg/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/misa/fotg/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,6 +128,54 @@ fotg: cmake_check_build_system
 fotg/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fotg.dir/build.make CMakeFiles/fotg.dir/build
 .PHONY : fotg/fast
+
+src/CharacterController.o: src/CharacterController.cpp.o
+.PHONY : src/CharacterController.o
+
+# target to build an object file
+src/CharacterController.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fotg.dir/build.make CMakeFiles/fotg.dir/src/CharacterController.cpp.o
+.PHONY : src/CharacterController.cpp.o
+
+src/CharacterController.i: src/CharacterController.cpp.i
+.PHONY : src/CharacterController.i
+
+# target to preprocess a source file
+src/CharacterController.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fotg.dir/build.make CMakeFiles/fotg.dir/src/CharacterController.cpp.i
+.PHONY : src/CharacterController.cpp.i
+
+src/CharacterController.s: src/CharacterController.cpp.s
+.PHONY : src/CharacterController.s
+
+# target to generate assembly for a file
+src/CharacterController.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fotg.dir/build.make CMakeFiles/fotg.dir/src/CharacterController.cpp.s
+.PHONY : src/CharacterController.cpp.s
+
+src/InputHandler.o: src/InputHandler.cpp.o
+.PHONY : src/InputHandler.o
+
+# target to build an object file
+src/InputHandler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fotg.dir/build.make CMakeFiles/fotg.dir/src/InputHandler.cpp.o
+.PHONY : src/InputHandler.cpp.o
+
+src/InputHandler.i: src/InputHandler.cpp.i
+.PHONY : src/InputHandler.i
+
+# target to preprocess a source file
+src/InputHandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fotg.dir/build.make CMakeFiles/fotg.dir/src/InputHandler.cpp.i
+.PHONY : src/InputHandler.cpp.i
+
+src/InputHandler.s: src/InputHandler.cpp.s
+.PHONY : src/InputHandler.s
+
+# target to generate assembly for a file
+src/InputHandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fotg.dir/build.make CMakeFiles/fotg.dir/src/InputHandler.cpp.s
+.PHONY : src/InputHandler.cpp.s
 
 src/TextureLoader.o: src/TextureLoader.cpp.o
 .PHONY : src/TextureLoader.o
@@ -210,6 +258,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... fotg"
+	@echo "... src/CharacterController.o"
+	@echo "... src/CharacterController.i"
+	@echo "... src/CharacterController.s"
+	@echo "... src/InputHandler.o"
+	@echo "... src/InputHandler.i"
+	@echo "... src/InputHandler.s"
 	@echo "... src/TextureLoader.o"
 	@echo "... src/TextureLoader.i"
 	@echo "... src/TextureLoader.s"

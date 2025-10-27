@@ -1,3 +1,3 @@
-/Users/user/Projects/fotg/build/CMakeFiles/fotg.dir
-/Users/user/Projects/fotg/build/CMakeFiles/edit_cache.dir
-/Users/user/Projects/fotg/build/CMakeFiles/rebuild_cache.dir
+/home/misa/fotg/build/CMakeFiles/fotg.dir
+/home/misa/fotg/build/CMakeFiles/edit_cache.dir
+/home/misa/fotg/build/CMakeFiles/rebuild_cache.dir
