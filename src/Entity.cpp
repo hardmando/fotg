@@ -17,3 +17,6 @@ SDL_Rect* Entity::getRect() { return Entity::rect; }
 
 void Entity::setSprite(const char *s) { Entity::sprite = s; }
 const char* Entity::getSprite() { return Entity::sprite; }
+
+void Entity::setCollider(Collision* c) { Entity::collider = c; }
+Collision* Entity::getCollider() { return Entity::collider; }
