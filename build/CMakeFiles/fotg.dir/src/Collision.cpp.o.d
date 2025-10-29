@@ -1,6 +1,6 @@
-CMakeFiles/fotg.dir/src/TextureLoader.cpp.o: \
-  /Users/user/Projects/fotg/src/TextureLoader.cpp \
-  /Users/user/Projects/fotg/src/../include/TextureLoader.h \
+CMakeFiles/fotg.dir/src/Collision.cpp.o: \
+  /Users/user/Projects/fotg/src/Collision.cpp \
+  /Users/user/Projects/fotg/src/../include/Collision.h \
   /opt/homebrew/include/SDL2/SDL.h /opt/homebrew/include/SDL2/SDL_main.h \
   /opt/homebrew/include/SDL2/SDL_stdinc.h \
   /opt/homebrew/include/SDL2/SDL_config.h \
@@ -266,5 +266,4 @@ CMakeFiles/fotg.dir/src/TextureLoader.cpp.o: \
   /opt/homebrew/include/SDL2/SDL_timer.h \
   /opt/homebrew/include/SDL2/SDL_version.h \
   /opt/homebrew/include/SDL2/SDL_locale.h \
-  /opt/homebrew/include/SDL2/SDL_misc.h \
-  /opt/homebrew/include/SDL2/SDL_image.h
+  /opt/homebrew/include/SDL2/SDL_misc.h
