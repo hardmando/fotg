@@ -4,9 +4,14 @@
 class Entity {
 public:
 	Entity();
-	Entity(SDL_Rect* r, const char *s);
+	Entity(int posX, int posY, int width, int height, const char *s);
 
-	void setRect(SDL_Rect* r);
+	void setPosition(int posX, int posY);
+	std::pair<int, int> getPosition();
+	
+	void setSize(int width, int height);
+	std::pair<int, int> getSize();
+
 	SDL_Rect* getRect();
 
 	void setSprite(const char *s);
@@ -19,4 +24,6 @@ public:
 private:
 	SDL_Rect* rect;
 	const char *sprite;
+	std::pair<int, int> position;
+	std::pair<int, int> size;
 };
