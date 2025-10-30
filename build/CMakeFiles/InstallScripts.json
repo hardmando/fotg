@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/Users/user/Projects/fotg/build/cmake_install.cmake"
+		"/home/misa/fotg/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

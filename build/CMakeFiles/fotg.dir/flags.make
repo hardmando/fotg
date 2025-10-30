@@ -4,9 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/user/Projects/fotg/include -I/opt/homebrew/include -I/opt/homebrew/include/SDL2 -I/opt/homebrew/opt/libpng/include/libpng16 -I/opt/homebrew/opt/jpeg-xl/include -I/opt/homebrew/Cellar/highway/1.3.0/include -I/opt/homebrew/Cellar/brotli/1.1.0/include -I/opt/homebrew/opt/little-cms2/include -I/opt/homebrew/opt/libtiff/include -I/opt/homebrew/opt/zstd/include -I/opt/homebrew/Cellar/xz/5.8.1/include -I/opt/homebrew/opt/jpeg-turbo/include -I/opt/homebrew/Cellar/libavif/1.3.0/include -I/opt/homebrew/Cellar/dav1d/1.5.1/include -I/opt/homebrew/Cellar/aom/3.13.1/include -I/opt/homebrew/Cellar/libvmaf/3.0.0/include -I/opt/homebrew/Cellar/libvmaf/3.0.0/include/libvmaf -I/opt/homebrew/opt/webp/include -I/opt/homebrew/opt/webp/include/webp
+CXX_INCLUDES = -I/home/misa/fotg/include -I/usr/include/SDL2 -I/usr/include/libpng16 -I/usr/include/rav1e -I/usr/include/svt-av1 -I/usr/include/webp
 
-CXX_FLAGSarm64 = -std=gnu++2b -arch arm64
-
-CXX_FLAGS = -std=gnu++2b -arch arm64
+CXX_FLAGS = -std=gnu++23
 

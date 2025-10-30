@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/fotg.dir/link.d"
   "CMakeFiles/fotg.dir/src/CharacterController.cpp.o"
   "CMakeFiles/fotg.dir/src/CharacterController.cpp.o.d"
   "CMakeFiles/fotg.dir/src/Collision.cpp.o"
