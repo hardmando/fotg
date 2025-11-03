@@ -1,3 +1,6 @@
+#ifndef EXSUL_ENGINE_COLLISION_H
+#define EXSUL_ENGINE_COLLISION_H
+
 #include <SDL2/SDL.h>
 #include <vector>
 
@@ -14,3 +17,5 @@ private:
 	SDL_Rect* rect;
 	std::vector<Collision>* collisions;
 };
+
+#endif // EXSUL_ENGINE_COLLISION_H

@@ -1,7 +1,7 @@
 #include "../include/CharacterController.h"
 
-CharacterController::CharacterController(SDL_Rect& t) {
-	target = &t;
+CharacterController::CharacterController(SDL_Rect* t) {
+	target = t;
 }
 void CharacterController::Move(InputHandler &i) {
 	i.OnKeyPress(SDL_SCANCODE_W, 

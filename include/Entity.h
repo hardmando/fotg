@@ -1,3 +1,6 @@
+#ifndef EXSUL_ENGINE_ENTITY_H
+#define EXSUL_ENGINE_ENTITY_H
+
 #include <SDL2/SDL.h>
 #include "../include/Collision.h"
 
@@ -27,3 +30,5 @@ private:
 	std::pair<int, int> position;
 	std::pair<int, int> size;
 };
+
+#endif // EXSUL_ENGINE_ENTITY_H

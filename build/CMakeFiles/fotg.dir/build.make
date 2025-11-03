@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /opt/homebrew/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /opt/homebrew/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/misa/fotg
+CMAKE_SOURCE_DIR = /Users/user/Projects/fotg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/misa/fotg/build
+CMAKE_BINARY_DIR = /Users/user/Projects/fotg/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/fotg.dir/depend.make
@@ -73,102 +73,102 @@ CMakeFiles/fotg.dir/codegen:
 .PHONY : CMakeFiles/fotg.dir/codegen
 
 CMakeFiles/fotg.dir/src/CharacterController.cpp.o: CMakeFiles/fotg.dir/flags.make
-CMakeFiles/fotg.dir/src/CharacterController.cpp.o: /home/misa/fotg/src/CharacterController.cpp
+CMakeFiles/fotg.dir/src/CharacterController.cpp.o: /Users/user/Projects/fotg/src/CharacterController.cpp
 CMakeFiles/fotg.dir/src/CharacterController.cpp.o: CMakeFiles/fotg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/misa/fotg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/fotg.dir/src/CharacterController.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fotg.dir/src/CharacterController.cpp.o -MF CMakeFiles/fotg.dir/src/CharacterController.cpp.o.d -o CMakeFiles/fotg.dir/src/CharacterController.cpp.o -c /home/misa/fotg/src/CharacterController.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/user/Projects/fotg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/fotg.dir/src/CharacterController.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fotg.dir/src/CharacterController.cpp.o -MF CMakeFiles/fotg.dir/src/CharacterController.cpp.o.d -o CMakeFiles/fotg.dir/src/CharacterController.cpp.o -c /Users/user/Projects/fotg/src/CharacterController.cpp
 
 CMakeFiles/fotg.dir/src/CharacterController.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fotg.dir/src/CharacterController.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/misa/fotg/src/CharacterController.cpp > CMakeFiles/fotg.dir/src/CharacterController.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/user/Projects/fotg/src/CharacterController.cpp > CMakeFiles/fotg.dir/src/CharacterController.cpp.i
 
 CMakeFiles/fotg.dir/src/CharacterController.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fotg.dir/src/CharacterController.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/misa/fotg/src/CharacterController.cpp -o CMakeFiles/fotg.dir/src/CharacterController.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/user/Projects/fotg/src/CharacterController.cpp -o CMakeFiles/fotg.dir/src/CharacterController.cpp.s
 
 CMakeFiles/fotg.dir/src/Collision.cpp.o: CMakeFiles/fotg.dir/flags.make
-CMakeFiles/fotg.dir/src/Collision.cpp.o: /home/misa/fotg/src/Collision.cpp
+CMakeFiles/fotg.dir/src/Collision.cpp.o: /Users/user/Projects/fotg/src/Collision.cpp
 CMakeFiles/fotg.dir/src/Collision.cpp.o: CMakeFiles/fotg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/misa/fotg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/fotg.dir/src/Collision.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fotg.dir/src/Collision.cpp.o -MF CMakeFiles/fotg.dir/src/Collision.cpp.o.d -o CMakeFiles/fotg.dir/src/Collision.cpp.o -c /home/misa/fotg/src/Collision.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/user/Projects/fotg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/fotg.dir/src/Collision.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fotg.dir/src/Collision.cpp.o -MF CMakeFiles/fotg.dir/src/Collision.cpp.o.d -o CMakeFiles/fotg.dir/src/Collision.cpp.o -c /Users/user/Projects/fotg/src/Collision.cpp
 
 CMakeFiles/fotg.dir/src/Collision.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fotg.dir/src/Collision.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/misa/fotg/src/Collision.cpp > CMakeFiles/fotg.dir/src/Collision.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/user/Projects/fotg/src/Collision.cpp > CMakeFiles/fotg.dir/src/Collision.cpp.i
 
 CMakeFiles/fotg.dir/src/Collision.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fotg.dir/src/Collision.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/misa/fotg/src/Collision.cpp -o CMakeFiles/fotg.dir/src/Collision.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/user/Projects/fotg/src/Collision.cpp -o CMakeFiles/fotg.dir/src/Collision.cpp.s
 
 CMakeFiles/fotg.dir/src/Entity.cpp.o: CMakeFiles/fotg.dir/flags.make
-CMakeFiles/fotg.dir/src/Entity.cpp.o: /home/misa/fotg/src/Entity.cpp
+CMakeFiles/fotg.dir/src/Entity.cpp.o: /Users/user/Projects/fotg/src/Entity.cpp
 CMakeFiles/fotg.dir/src/Entity.cpp.o: CMakeFiles/fotg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/misa/fotg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/fotg.dir/src/Entity.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fotg.dir/src/Entity.cpp.o -MF CMakeFiles/fotg.dir/src/Entity.cpp.o.d -o CMakeFiles/fotg.dir/src/Entity.cpp.o -c /home/misa/fotg/src/Entity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/user/Projects/fotg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/fotg.dir/src/Entity.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fotg.dir/src/Entity.cpp.o -MF CMakeFiles/fotg.dir/src/Entity.cpp.o.d -o CMakeFiles/fotg.dir/src/Entity.cpp.o -c /Users/user/Projects/fotg/src/Entity.cpp
 
 CMakeFiles/fotg.dir/src/Entity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fotg.dir/src/Entity.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/misa/fotg/src/Entity.cpp > CMakeFiles/fotg.dir/src/Entity.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/user/Projects/fotg/src/Entity.cpp > CMakeFiles/fotg.dir/src/Entity.cpp.i
 
 CMakeFiles/fotg.dir/src/Entity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fotg.dir/src/Entity.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/misa/fotg/src/Entity.cpp -o CMakeFiles/fotg.dir/src/Entity.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/user/Projects/fotg/src/Entity.cpp -o CMakeFiles/fotg.dir/src/Entity.cpp.s
 
 CMakeFiles/fotg.dir/src/InputHandler.cpp.o: CMakeFiles/fotg.dir/flags.make
-CMakeFiles/fotg.dir/src/InputHandler.cpp.o: /home/misa/fotg/src/InputHandler.cpp
+CMakeFiles/fotg.dir/src/InputHandler.cpp.o: /Users/user/Projects/fotg/src/InputHandler.cpp
 CMakeFiles/fotg.dir/src/InputHandler.cpp.o: CMakeFiles/fotg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/misa/fotg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/fotg.dir/src/InputHandler.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fotg.dir/src/InputHandler.cpp.o -MF CMakeFiles/fotg.dir/src/InputHandler.cpp.o.d -o CMakeFiles/fotg.dir/src/InputHandler.cpp.o -c /home/misa/fotg/src/InputHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/user/Projects/fotg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/fotg.dir/src/InputHandler.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fotg.dir/src/InputHandler.cpp.o -MF CMakeFiles/fotg.dir/src/InputHandler.cpp.o.d -o CMakeFiles/fotg.dir/src/InputHandler.cpp.o -c /Users/user/Projects/fotg/src/InputHandler.cpp
 
 CMakeFiles/fotg.dir/src/InputHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fotg.dir/src/InputHandler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/misa/fotg/src/InputHandler.cpp > CMakeFiles/fotg.dir/src/InputHandler.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/user/Projects/fotg/src/InputHandler.cpp > CMakeFiles/fotg.dir/src/InputHandler.cpp.i
 
 CMakeFiles/fotg.dir/src/InputHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fotg.dir/src/InputHandler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/misa/fotg/src/InputHandler.cpp -o CMakeFiles/fotg.dir/src/InputHandler.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/user/Projects/fotg/src/InputHandler.cpp -o CMakeFiles/fotg.dir/src/InputHandler.cpp.s
 
 CMakeFiles/fotg.dir/src/TextureLoader.cpp.o: CMakeFiles/fotg.dir/flags.make
-CMakeFiles/fotg.dir/src/TextureLoader.cpp.o: /home/misa/fotg/src/TextureLoader.cpp
+CMakeFiles/fotg.dir/src/TextureLoader.cpp.o: /Users/user/Projects/fotg/src/TextureLoader.cpp
 CMakeFiles/fotg.dir/src/TextureLoader.cpp.o: CMakeFiles/fotg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/misa/fotg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/fotg.dir/src/TextureLoader.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fotg.dir/src/TextureLoader.cpp.o -MF CMakeFiles/fotg.dir/src/TextureLoader.cpp.o.d -o CMakeFiles/fotg.dir/src/TextureLoader.cpp.o -c /home/misa/fotg/src/TextureLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/user/Projects/fotg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/fotg.dir/src/TextureLoader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fotg.dir/src/TextureLoader.cpp.o -MF CMakeFiles/fotg.dir/src/TextureLoader.cpp.o.d -o CMakeFiles/fotg.dir/src/TextureLoader.cpp.o -c /Users/user/Projects/fotg/src/TextureLoader.cpp
 
 CMakeFiles/fotg.dir/src/TextureLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fotg.dir/src/TextureLoader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/misa/fotg/src/TextureLoader.cpp > CMakeFiles/fotg.dir/src/TextureLoader.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/user/Projects/fotg/src/TextureLoader.cpp > CMakeFiles/fotg.dir/src/TextureLoader.cpp.i
 
 CMakeFiles/fotg.dir/src/TextureLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fotg.dir/src/TextureLoader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/misa/fotg/src/TextureLoader.cpp -o CMakeFiles/fotg.dir/src/TextureLoader.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/user/Projects/fotg/src/TextureLoader.cpp -o CMakeFiles/fotg.dir/src/TextureLoader.cpp.s
 
 CMakeFiles/fotg.dir/src/Window.cpp.o: CMakeFiles/fotg.dir/flags.make
-CMakeFiles/fotg.dir/src/Window.cpp.o: /home/misa/fotg/src/Window.cpp
+CMakeFiles/fotg.dir/src/Window.cpp.o: /Users/user/Projects/fotg/src/Window.cpp
 CMakeFiles/fotg.dir/src/Window.cpp.o: CMakeFiles/fotg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/misa/fotg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/fotg.dir/src/Window.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fotg.dir/src/Window.cpp.o -MF CMakeFiles/fotg.dir/src/Window.cpp.o.d -o CMakeFiles/fotg.dir/src/Window.cpp.o -c /home/misa/fotg/src/Window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/user/Projects/fotg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/fotg.dir/src/Window.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fotg.dir/src/Window.cpp.o -MF CMakeFiles/fotg.dir/src/Window.cpp.o.d -o CMakeFiles/fotg.dir/src/Window.cpp.o -c /Users/user/Projects/fotg/src/Window.cpp
 
 CMakeFiles/fotg.dir/src/Window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fotg.dir/src/Window.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/misa/fotg/src/Window.cpp > CMakeFiles/fotg.dir/src/Window.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/user/Projects/fotg/src/Window.cpp > CMakeFiles/fotg.dir/src/Window.cpp.i
 
 CMakeFiles/fotg.dir/src/Window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fotg.dir/src/Window.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/misa/fotg/src/Window.cpp -o CMakeFiles/fotg.dir/src/Window.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/user/Projects/fotg/src/Window.cpp -o CMakeFiles/fotg.dir/src/Window.cpp.s
 
 CMakeFiles/fotg.dir/src/main.cpp.o: CMakeFiles/fotg.dir/flags.make
-CMakeFiles/fotg.dir/src/main.cpp.o: /home/misa/fotg/src/main.cpp
+CMakeFiles/fotg.dir/src/main.cpp.o: /Users/user/Projects/fotg/src/main.cpp
 CMakeFiles/fotg.dir/src/main.cpp.o: CMakeFiles/fotg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/misa/fotg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/fotg.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fotg.dir/src/main.cpp.o -MF CMakeFiles/fotg.dir/src/main.cpp.o.d -o CMakeFiles/fotg.dir/src/main.cpp.o -c /home/misa/fotg/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/user/Projects/fotg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/fotg.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fotg.dir/src/main.cpp.o -MF CMakeFiles/fotg.dir/src/main.cpp.o.d -o CMakeFiles/fotg.dir/src/main.cpp.o -c /Users/user/Projects/fotg/src/main.cpp
 
 CMakeFiles/fotg.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fotg.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/misa/fotg/src/main.cpp > CMakeFiles/fotg.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/user/Projects/fotg/src/main.cpp > CMakeFiles/fotg.dir/src/main.cpp.i
 
 CMakeFiles/fotg.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fotg.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/misa/fotg/src/main.cpp -o CMakeFiles/fotg.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/user/Projects/fotg/src/main.cpp -o CMakeFiles/fotg.dir/src/main.cpp.s
 
 # Object files for target fotg
 fotg_OBJECTS = \
@@ -191,9 +191,10 @@ fotg: CMakeFiles/fotg.dir/src/TextureLoader.cpp.o
 fotg: CMakeFiles/fotg.dir/src/Window.cpp.o
 fotg: CMakeFiles/fotg.dir/src/main.cpp.o
 fotg: CMakeFiles/fotg.dir/build.make
-fotg: CMakeFiles/fotg.dir/compiler_depend.ts
+fotg: /opt/homebrew/lib/libSDL2.dylib
+fotg: /opt/homebrew/lib/libSDL2_image.dylib
 fotg: CMakeFiles/fotg.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/misa/fotg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable fotg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/user/Projects/fotg/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable fotg"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fotg.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -205,6 +206,6 @@ CMakeFiles/fotg.dir/clean:
 .PHONY : CMakeFiles/fotg.dir/clean
 
 CMakeFiles/fotg.dir/depend:
-	cd /home/misa/fotg/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/misa/fotg /home/misa/fotg /home/misa/fotg/build /home/misa/fotg/build /home/misa/fotg/build/CMakeFiles/fotg.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/user/Projects/fotg/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/user/Projects/fotg /Users/user/Projects/fotg /Users/user/Projects/fotg/build /Users/user/Projects/fotg/build /Users/user/Projects/fotg/build/CMakeFiles/fotg.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/fotg.dir/depend
 

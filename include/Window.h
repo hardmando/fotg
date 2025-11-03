@@ -1,3 +1,6 @@
+#ifndef EXSUL_ENGINE_WINDOW_H
+#define EXSUL_ENGINE_WINDOW_H
+
 #include <SDL2/SDL.h>
 #include <iostream>
 
@@ -11,3 +14,5 @@ private:
 	void initRenderer(SDL_Window* window);
 
 };
+
+#endif // EXSUL_ENGINE_WINDOW_H
