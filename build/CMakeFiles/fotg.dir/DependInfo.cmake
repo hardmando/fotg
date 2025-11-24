@@ -8,13 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/user/Projects/fotg/src/CharacterController.cpp" "CMakeFiles/fotg.dir/src/CharacterController.cpp.o" "gcc" "CMakeFiles/fotg.dir/src/CharacterController.cpp.o.d"
-  "/Users/user/Projects/fotg/src/Collision.cpp" "CMakeFiles/fotg.dir/src/Collision.cpp.o" "gcc" "CMakeFiles/fotg.dir/src/Collision.cpp.o.d"
-  "/Users/user/Projects/fotg/src/Entity.cpp" "CMakeFiles/fotg.dir/src/Entity.cpp.o" "gcc" "CMakeFiles/fotg.dir/src/Entity.cpp.o.d"
-  "/Users/user/Projects/fotg/src/InputHandler.cpp" "CMakeFiles/fotg.dir/src/InputHandler.cpp.o" "gcc" "CMakeFiles/fotg.dir/src/InputHandler.cpp.o.d"
-  "/Users/user/Projects/fotg/src/TextureLoader.cpp" "CMakeFiles/fotg.dir/src/TextureLoader.cpp.o" "gcc" "CMakeFiles/fotg.dir/src/TextureLoader.cpp.o.d"
-  "/Users/user/Projects/fotg/src/Window.cpp" "CMakeFiles/fotg.dir/src/Window.cpp.o" "gcc" "CMakeFiles/fotg.dir/src/Window.cpp.o.d"
-  "/Users/user/Projects/fotg/src/main.cpp" "CMakeFiles/fotg.dir/src/main.cpp.o" "gcc" "CMakeFiles/fotg.dir/src/main.cpp.o.d"
+  "/Users/user/Projects/fotg/engine/main.cpp" "CMakeFiles/fotg.dir/engine/main.cpp.o" "gcc" "CMakeFiles/fotg.dir/engine/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

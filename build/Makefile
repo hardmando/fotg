@@ -129,173 +129,29 @@ fotg/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fotg.dir/build.make CMakeFiles/fotg.dir/build
 .PHONY : fotg/fast
 
-src/CharacterController.o: src/CharacterController.cpp.o
-.PHONY : src/CharacterController.o
+engine/main.o: engine/main.cpp.o
+.PHONY : engine/main.o
 
 # target to build an object file
-src/CharacterController.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fotg.dir/build.make CMakeFiles/fotg.dir/src/CharacterController.cpp.o
-.PHONY : src/CharacterController.cpp.o
+engine/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fotg.dir/build.make CMakeFiles/fotg.dir/engine/main.cpp.o
+.PHONY : engine/main.cpp.o
 
-src/CharacterController.i: src/CharacterController.cpp.i
-.PHONY : src/CharacterController.i
-
-# target to preprocess a source file
-src/CharacterController.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fotg.dir/build.make CMakeFiles/fotg.dir/src/CharacterController.cpp.i
-.PHONY : src/CharacterController.cpp.i
-
-src/CharacterController.s: src/CharacterController.cpp.s
-.PHONY : src/CharacterController.s
-
-# target to generate assembly for a file
-src/CharacterController.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fotg.dir/build.make CMakeFiles/fotg.dir/src/CharacterController.cpp.s
-.PHONY : src/CharacterController.cpp.s
-
-src/Collision.o: src/Collision.cpp.o
-.PHONY : src/Collision.o
-
-# target to build an object file
-src/Collision.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fotg.dir/build.make CMakeFiles/fotg.dir/src/Collision.cpp.o
-.PHONY : src/Collision.cpp.o
-
-src/Collision.i: src/Collision.cpp.i
-.PHONY : src/Collision.i
+engine/main.i: engine/main.cpp.i
+.PHONY : engine/main.i
 
 # target to preprocess a source file
-src/Collision.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fotg.dir/build.make CMakeFiles/fotg.dir/src/Collision.cpp.i
-.PHONY : src/Collision.cpp.i
+engine/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fotg.dir/build.make CMakeFiles/fotg.dir/engine/main.cpp.i
+.PHONY : engine/main.cpp.i
 
-src/Collision.s: src/Collision.cpp.s
-.PHONY : src/Collision.s
-
-# target to generate assembly for a file
-src/Collision.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fotg.dir/build.make CMakeFiles/fotg.dir/src/Collision.cpp.s
-.PHONY : src/Collision.cpp.s
-
-src/Entity.o: src/Entity.cpp.o
-.PHONY : src/Entity.o
-
-# target to build an object file
-src/Entity.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fotg.dir/build.make CMakeFiles/fotg.dir/src/Entity.cpp.o
-.PHONY : src/Entity.cpp.o
-
-src/Entity.i: src/Entity.cpp.i
-.PHONY : src/Entity.i
-
-# target to preprocess a source file
-src/Entity.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fotg.dir/build.make CMakeFiles/fotg.dir/src/Entity.cpp.i
-.PHONY : src/Entity.cpp.i
-
-src/Entity.s: src/Entity.cpp.s
-.PHONY : src/Entity.s
+engine/main.s: engine/main.cpp.s
+.PHONY : engine/main.s
 
 # target to generate assembly for a file
-src/Entity.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fotg.dir/build.make CMakeFiles/fotg.dir/src/Entity.cpp.s
-.PHONY : src/Entity.cpp.s
-
-src/InputHandler.o: src/InputHandler.cpp.o
-.PHONY : src/InputHandler.o
-
-# target to build an object file
-src/InputHandler.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fotg.dir/build.make CMakeFiles/fotg.dir/src/InputHandler.cpp.o
-.PHONY : src/InputHandler.cpp.o
-
-src/InputHandler.i: src/InputHandler.cpp.i
-.PHONY : src/InputHandler.i
-
-# target to preprocess a source file
-src/InputHandler.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fotg.dir/build.make CMakeFiles/fotg.dir/src/InputHandler.cpp.i
-.PHONY : src/InputHandler.cpp.i
-
-src/InputHandler.s: src/InputHandler.cpp.s
-.PHONY : src/InputHandler.s
-
-# target to generate assembly for a file
-src/InputHandler.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fotg.dir/build.make CMakeFiles/fotg.dir/src/InputHandler.cpp.s
-.PHONY : src/InputHandler.cpp.s
-
-src/TextureLoader.o: src/TextureLoader.cpp.o
-.PHONY : src/TextureLoader.o
-
-# target to build an object file
-src/TextureLoader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fotg.dir/build.make CMakeFiles/fotg.dir/src/TextureLoader.cpp.o
-.PHONY : src/TextureLoader.cpp.o
-
-src/TextureLoader.i: src/TextureLoader.cpp.i
-.PHONY : src/TextureLoader.i
-
-# target to preprocess a source file
-src/TextureLoader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fotg.dir/build.make CMakeFiles/fotg.dir/src/TextureLoader.cpp.i
-.PHONY : src/TextureLoader.cpp.i
-
-src/TextureLoader.s: src/TextureLoader.cpp.s
-.PHONY : src/TextureLoader.s
-
-# target to generate assembly for a file
-src/TextureLoader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fotg.dir/build.make CMakeFiles/fotg.dir/src/TextureLoader.cpp.s
-.PHONY : src/TextureLoader.cpp.s
-
-src/Window.o: src/Window.cpp.o
-.PHONY : src/Window.o
-
-# target to build an object file
-src/Window.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fotg.dir/build.make CMakeFiles/fotg.dir/src/Window.cpp.o
-.PHONY : src/Window.cpp.o
-
-src/Window.i: src/Window.cpp.i
-.PHONY : src/Window.i
-
-# target to preprocess a source file
-src/Window.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fotg.dir/build.make CMakeFiles/fotg.dir/src/Window.cpp.i
-.PHONY : src/Window.cpp.i
-
-src/Window.s: src/Window.cpp.s
-.PHONY : src/Window.s
-
-# target to generate assembly for a file
-src/Window.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fotg.dir/build.make CMakeFiles/fotg.dir/src/Window.cpp.s
-.PHONY : src/Window.cpp.s
-
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
-
-# target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fotg.dir/build.make CMakeFiles/fotg.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
-
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
-
-# target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fotg.dir/build.make CMakeFiles/fotg.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
-
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
-
-# target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fotg.dir/build.make CMakeFiles/fotg.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+engine/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fotg.dir/build.make CMakeFiles/fotg.dir/engine/main.cpp.s
+.PHONY : engine/main.cpp.s
 
 # Help Target
 help:
@@ -306,27 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... fotg"
-	@echo "... src/CharacterController.o"
-	@echo "... src/CharacterController.i"
-	@echo "... src/CharacterController.s"
-	@echo "... src/Collision.o"
-	@echo "... src/Collision.i"
-	@echo "... src/Collision.s"
-	@echo "... src/Entity.o"
-	@echo "... src/Entity.i"
-	@echo "... src/Entity.s"
-	@echo "... src/InputHandler.o"
-	@echo "... src/InputHandler.i"
-	@echo "... src/InputHandler.s"
-	@echo "... src/TextureLoader.o"
-	@echo "... src/TextureLoader.i"
-	@echo "... src/TextureLoader.s"
-	@echo "... src/Window.o"
-	@echo "... src/Window.i"
-	@echo "... src/Window.s"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... engine/main.o"
+	@echo "... engine/main.i"
+	@echo "... engine/main.s"
 .PHONY : help
 
 

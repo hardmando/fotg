@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # --- Sources + includes ---
 include_directories(include)
-file(GLOB SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp")
+file(GLOB_RECURSE SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/engine/*.cpp")
 add_executable(fotg ${SOURCES})
 
 # --- pkg-config for SDL2 ---
